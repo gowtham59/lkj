@@ -1,13 +1,8 @@
-in1,in2=map(int,input().split())
-in3=list(map(int,input().split()))
-in1=[]
-in3.insert(0,0)
-for j in range(in2):
-     v=[]
-     s1=0
-     k,l=map(int,input().split())
-     for i in range(k,l+1):         
-         s1^=input3[i]     
-     in1.append(s1)
-for j in in1:
-    print(j)
+n1,q2=map(int,input().split())
+b3=list(map(int,input().split()))
+for x in range (q2):
+    s4,t5=map(int,input().split())
+    y=0
+    for a in range(s4-1,t5):
+        y=y^b3[a]
+    print(y)
